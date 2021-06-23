@@ -1,0 +1,65 @@
+body{
+  background-color:#1b1b1b;
+  color:#c0fefcf1;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+h1{
+text-align:center;
+padding-top: 3%;
+font-size: 4em;
+font-family: 'Dela Gothic One', cursive;
+background: -webkit-linear-gradient(#690cff, #ccacff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+p{
+  text-align:center;
+  font-weight: 600;
+}
+
+.buttondiv{
+  text-align: center;
+  padding: 8% 5%;
+  margin: 5% 35%;
+  border-radius: 30px;
+  background: linear-gradient(to bottom right, #c0fefc1a, #1b1b1b);
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height:5%;
+  background-color: #9efffccb;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.spanname{
+  font-weight: bolder;
+}
+.btn-grad {background-image: linear-gradient(to right, #8ea7ab 0%, #cacaca  51%, #8ea7ab  100%)}
+.btn-grad {
+  margin:0 auto;
+  padding:10px 10px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: black;            
+   border:none;
+   box-shadow: 0 0 10px #2424244d;
+   border-radius: 10px;
+   display: block;
+   outline:none;
+   font-family:'Montserrat Alternates', sans-serif;
+   font-weight: bold;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #000;
+   text-decoration: none;
+ }
